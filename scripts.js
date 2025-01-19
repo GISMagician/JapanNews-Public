@@ -8,13 +8,16 @@ require([
   "esri/widgets/Legend"
 ], (WebScene, SceneView, IntegratedMesh3DTilesLayer, Expand, FeatureLayer, LayerList, Legend) => {
   /*************************************
-   * Load webscene from ArcGIS Online
-   *************************************/
-  const webscene = new WebScene({
-    portalItem: {
-      id: "e7d41c295e844dd7a76b6d34799a30d3" // Replace with your webscene ID
-    }
+   * Create IntegratedMesh3DTilesLayer layer
+   * and add it to the webscene
+   ***********************************/
+  const apiKey = process.env.AIzaSyAMaPysFBi27qRN1RNqKHFq2lAbkxWlWEo;
+  const google3DTilesLayer = new IntegratedMesh3DTilesLayer({
+    url: `https://tile.googleapis.com/v1/3dtiles/root.json?key=${apiKey}`,
+    title: "Google 3D Tiles"
   });
+
+  webscene.add(google3DTilesLayer);
 
   /*************************************
    * Create IntegratedMesh3DTilesLayer layer
