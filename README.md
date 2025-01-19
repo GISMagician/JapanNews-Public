@@ -2,7 +2,12 @@
 
 This project displays a 3D web map of Kansai News using the ArcGIS API for JavaScript and Google 3D Tiles in both Japanese and English.  
 The underlying data is created using Python. 
-The Python script uses web scraping to gather article information, then the OpenAI module draws insights from the scraped data, sending it to a feature layer.
+The Python script uses web scraping to gather article information.
+The openai module then generates:
+- A translated English title
+- A summary in English and Japanese
+- A x-y coordinate pair for the articles estimated location based on the content of the article
+- A reason for the above chosen location in both English and Japanese.
 
 ---
 
@@ -50,4 +55,7 @@ The Python script uses web scraping to gather article information, then the Open
 - `scripts.js`: The JavaScript file that initializes the ArcGIS web scene and adds layers.  
 - `pythonNewsReport.py`: A Python script for scraping news articles and updating the ArcGIS Online layer.
 
-
+## Any questions?
+If you had problems with getting this setup, or want to talk more about it, please tell me!
+My email is wmbroll@gmail.com
+Thank you for taking the time to read this and I hope you have a good rest of your day.
