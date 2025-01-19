@@ -11,27 +11,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import time
-#%% md
-# ### Scrape Website (Simple)
-#%%
-# Set up the driver (example with Chrome)
-service = Service(r'C:\ArcWorkSpace\PersonalProjects\NewReportsJapan\chromedriver-win64\chromedriver.exe')  # Use raw string to avoid issues with backslashes
-driver = webdriver.Chrome(service=service)
-
-# Open a webpage
-driver.get("https://geocgi.com/")
-
-# Wait for the page to load
-driver.implicitly_wait(5)  # seconds
-
-# Get the title of the page
-page_title = driver.title
-
-# Print the title
-print(page_title)
-
-# Close the browser
-driver.quit()
 
 #%% md
 # ### Collect Article: Link, Title, Image
