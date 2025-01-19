@@ -41,7 +41,7 @@ cd KansaiNewsToday/WebMap
 3. Replace `YOUR_OPENAI_API_KEY` in `pythonNewsReport.py` with your actual API key.
 
 #### ArcGIS Online Account:
-1. Sign in to your [ArcGIS Online](https://www.arcgis.com) account.  
+1. Sign in to your [ArcGIS Online](https://www.esri.com/en-us/home) account.  
 2. Create a empty webscene.  
 3. Replace `YOUR_WEBSCENE_ID` in `scripts.js` with your actual webscene ID.
 4. A sample geodatabase with the required feature layer is in the repository.
