@@ -1,0 +1,2 @@
+# JapanNews-Public
+JapanNewsMap-Private
