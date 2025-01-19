@@ -11,7 +11,7 @@ The Python script uses web scraping to gather article information, then the Open
 - [Google Maps Platform API Key](https://developers.google.com/maps/documentation/tile/get-api-key)
 - [OpenAI API Key](https://openai.com/index/openai-api/)
 - [ChromeDriver](https://developer.chrome.com/docs/chromedriver)
-- [ArcGIS Online Account](https://www.arcgis.com)
+- [ArcGIS Online Account](https://www.esri.com/en-us/home)
 
 ---
 
