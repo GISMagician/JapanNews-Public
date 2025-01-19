@@ -20,11 +20,12 @@ require([
    * Create IntegratedMesh3DTilesLayer layer
    * and add it to the webscene
    ***********************************/
-  const apiKey = process.env.GOOGLE_API_KEY;
+  const apiKey = "AIzaSyAMaPysFBi27qRN1RNqKHFq2lAbkxWlWEo"
   const google3DTilesLayer = new IntegratedMesh3DTilesLayer({
     url: `https://tile.googleapis.com/v1/3dtiles/root.json?key=${apiKey}`,
     title: "Google 3D Tiles"
   });
+
   webscene.add(google3DTilesLayer);
 
   /*************************************
