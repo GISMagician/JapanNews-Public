@@ -200,7 +200,7 @@ require([
     const selectedLanguage = event.target.value;
     const headerTitle = document.querySelector('.header');
     if (selectedLanguage === 'ja') {
-      headerTitle.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NHK_logo.svg/512px-NHK_logo.svg.png?20151101160911" /> 関西Today';
+      headerTitle.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/NHK_logo.svg/512px-NHK_logo.svg.png?20151101160911" /> 関西 Today';
       kansaiNewsLayer.title = "関西ニュース";
       google3DTilesLayer.title = "Google 3D タイル";
       kansaiNewsLayer.popupTemplate.content = `
