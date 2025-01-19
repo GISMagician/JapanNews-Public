@@ -17,17 +17,11 @@ The Python script uses web scraping to gather article information, then the Open
 
 ## Setup
 
-### 1. **Clone the Repository**
-```sh
-git clone https://github.com/yourusername/JapanNews-Public.git
-cd KansaiNewsToday/WebMap
-```
-
-### 2. **Install ChromeDriver**
+### 1. **Install ChromeDriver**
 - Download the appropriate version of ChromeDriver from the link above.  
 - ChromeDriver is needed to perform the web scraping tasks in the Python file.
 
-### 3. **Configure API Keys**
+### 2. **Configure API Keys**
 
 #### Google Cloud API Key:
 1. Go to the [Google Maps Platform API Key](https://developers.google.com/maps/documentation/tile/get-api-key).
