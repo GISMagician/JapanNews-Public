@@ -38,7 +38,8 @@ The Python script uses web scraping to gather article information, then the Open
 1. Sign in to your [ArcGIS Online](https://www.esri.com/en-us/home) account.  
 2. Create a empty webscene.  
 3. Replace `YOUR_WEBSCENE_ID` in `scripts.js` with your actual webscene ID.
-4. A sample geodatabase with the required feature layer is in the repository.
+4. You will have to make your own target feature layer for the data to be stored.
+5. You can look at the one I used [here](https://gismagican.maps.arcgis.com/home/item.html?id=1c4b4999d63e4beeba518e3a375ce5ba) as a guide.
 
 ---
 
