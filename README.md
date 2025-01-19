@@ -19,7 +19,7 @@ The Python script uses web scraping to gather article information, then the Open
 
 ### 1. **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/KansaiNewsToday.git
+git clone https://github.com/yourusername/JapanNews-Public.git
 cd KansaiNewsToday/WebMap
 ```
 
