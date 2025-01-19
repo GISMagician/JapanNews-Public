@@ -21,11 +21,8 @@ require([
    * and add it to the webscene
    ***********************************/
   const google3DTilesLayer = new IntegratedMesh3DTilesLayer({
-    url: "https://tile.googleapis.com/v1/3dtiles/root.json",
-    title: "Google 3D Tiles",
-    customParameters: {
-      key: 'AIzaSyAMaPysFBi27qRN1RNqKHFq2lAbkxWlWEo'
-    }
+    url: "url: "https://tile.googleapis.com/v1/3dtiles/root.json?key=AIzaSyAMaPysFBi27qRN1RNqKHFq2lAbkxWlWEo",
+    title: "Google 3D Tiles"
   });
 
   webscene.add(google3DTilesLayer);
