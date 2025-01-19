@@ -18,8 +18,6 @@ require([
 
   webscene.add(google3DTilesLayer);
 
-  webscene.add(google3DTilesLayer);
-
   /*************************************
    * Create IntegratedMesh3DTilesLayer layer
    * and add it to the webscene
